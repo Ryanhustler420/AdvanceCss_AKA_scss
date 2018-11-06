@@ -34,6 +34,15 @@
             background-color: $color-white;
         }
     }
+
+    &--green {
+        color: $color-white;
+        background-color: $color-primary;
+
+        &::after{
+            background-color: $color-white;
+        }
+    }
     
     /* this is inital state of any element so define transition here */
     &::after {
