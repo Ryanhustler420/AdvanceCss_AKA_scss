@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+  "watch:sass": "nodemon -e scss -x \"npm run compile:sass\"",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss  ./css/style.css",
+    "watch": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "GauravGupta",
   "license": "ISC",
