@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto;
 
     // this applies every child except last child of parent
@@ -22,8 +21,6 @@
     // again very usefull when comes to DRY principle
     
     [class^="col-"] {
-        background-color: $color-gray-dark;
-        color: $color-white;
         float: left;
         height: 5rem;
         
