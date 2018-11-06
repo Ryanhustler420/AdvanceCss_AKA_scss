@@ -1,0 +1,58 @@
+.row {
+    max-width: $grid-width;
+    background-color: #eee;
+    margin: 0 auto;
+
+    // this applies every child except last child of parent
+    &:not(:last-child){
+        margin-bottom: $gutter-vertical;
+    }
+
+    // this is mixin for clearfix : check out in abstract folder in the file system.
+    @include clearfix;
+
+    // when class name contain this piece of name withen it.
+    // [class*="col-"]
+    
+    // when class name ends with this piece if name at the end.
+    // [class$="col-"]
+    
+    // this selector is ment for only select those classes which start with 'col-1'
+    // this is called attribute selector
+    // again very usefull when comes to DRY principle
+    
+    [class^="col-"] {
+        background-color: $color-gray-dark;
+        color: $color-white;
+        float: left;
+        height: 5rem;
+        
+        &:not(:last-child){
+            margin-right: $gutter-horizontal;
+        }  
+    }
+    
+    .col-1-of-2 {
+        width: calc((100% - #{$gutter-horizontal}) / 2);  
+    }
+
+    .col-1-of-3 {
+        width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    }
+
+    .col-2-of-3 {
+        width: calc(2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal} );
+    }
+    
+    .col-1-of-4 {
+        width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+    }
+
+    .col-2-of-4 {
+        width: calc( 2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
+    }
+
+    .col-3-of-4 {
+        width: calc( 3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal} * 2);
+    }
+}
