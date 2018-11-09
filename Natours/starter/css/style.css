@@ -1,3 +1,19 @@
+/*
+0 - 600px:  phone
+600   -   900px   Tablet potrait
+900   -   1200px   Tablet landscape
+[1200 - 18000] is where our normal styles apply
+1800   +   :    Big desktop
+*/
+/*
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1em == 16px
+*/
 *,
 *::after,
 *::before {
@@ -7,6 +23,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
@@ -670,7 +695,7 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 220%;
-  transition: all .1s; }
+  transition: all .6s; }
 
 .navigation__link span {
   margin-right: 1.5rem;
