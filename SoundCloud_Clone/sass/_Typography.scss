@@ -1,0 +1,57 @@
+.heading-2 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.heading-3 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.SubText {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    align-self: center;
+    background-color: $color-primary;
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+    width: 20rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+
+    
+}
+
+.skull-btn{
+    text-decoration: none;
+    border: .5px solid #ccc;
+    padding: 1rem;
+    border-radius: 2px;
+    font-weight: 300;
+    color: black;
+
+    &:hover {
+        border: .5px solid #aaa;
+    }
+}
+
+.mt-small {
+    margin-top: 3rem;
+}
+
+.mb-small {
+    margin-bottom: 3rem;
+}
+
+.large {
+    width: 30rem;
+}

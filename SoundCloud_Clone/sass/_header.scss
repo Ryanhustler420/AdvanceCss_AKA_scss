@@ -1,0 +1,72 @@
+.main-header {
+    box-shadow: 0px 0px 90px 0px rgba(#000, .4);
+    padding: 2rem;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    height: 65vh;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Josefin Sans';
+    border-top: 5px solid $color-primary;
+    display: grid;
+    grid-template-rows: minmax(auto-fit, 25rem);
+    grid-row-gap: 1rem;
+}
+
+.navigation{
+    
+    // padding: 2rem 0 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    &__brand {
+        cursor: pointer;
+        
+        &::after{
+            content: "SoundCloud";
+            font-size: 2rem;
+        }
+    }
+    
+    &__icon {
+        width: 6rem;
+        vertical-align: text-bottom;
+    }
+    
+    &__nav {
+        
+        &__items {
+            list-style: none;
+        }
+        
+        &__item {
+            display: inline-block;
+            margin-left: 1rem;
+            padding: .3rem 1.5rem;
+            border-radius: .5rem;
+            font-size: 1.4rem;
+            cursor: pointer;
+
+            &--skeleton {
+                border: 1px solid white; 
+
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
+            }
+
+            &--btn {
+                background-color:$color-primary;
+                border: 1px solid $color-primary;
+
+                
+                &:hover {
+                    background-color: white;
+                    border: 1px solid white;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}

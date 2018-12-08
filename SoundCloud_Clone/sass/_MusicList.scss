@@ -1,0 +1,47 @@
+.music-list {
+    height: max-content;
+    background-color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 100;
+    box-shadow: 0px 0px 90px 0px rgba(#000, .4);
+    
+    &__searchArea {
+        text-align: center;
+        padding: 1rem;
+        vertical-align: middle;
+
+        &__input {
+            width: 50%;
+            padding: 1.9rem;
+            background-color: #f2f2f2;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+
+    }
+
+    &__collection {
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px , 1fr));
+        grid-gap: 3rem;
+    }
+
+    &__each {
+        font-size: 1rem;
+        font-weight: 300;
+        cursor: pointer;
+        width: 150px;
+    }
+}
+
+.span {
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0 2rem;
+}
+
+.img {
+    border-radius: 2px 2px 0 0;
+}
