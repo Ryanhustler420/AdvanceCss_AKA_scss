@@ -11,22 +11,70 @@ html {
 
 body {
   box-sizing: border-box;
-  line-height: 1.6;
+  line-height: 1.4;
   background-color: #eee; }
 
 .container {
   font-size: 1.8rem; }
 
+.main {
+  padding: 0 20rem;
+  display: flex; }
+
+.users__cards {
+  display: flex; }
+
+.users__card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  margin: 0 1rem 0 0;
+  height: 15rem;
+  width: 12rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .users__card:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5); }
+
+.users__img {
+  border-radius: 5px 5px 0 0;
+  width: 100%; }
+
+.users__username {
+  text-align: center; }
+
+.heading-1 {
+  font-size: 3rem;
+  font-weight: 100; }
+
+.heading-3 {
+  font-size: 1.5rem;
+  font-weight: 100; }
+
+.primary-text {
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 2rem; }
+
+.mt-small {
+  margin-top: 1rem; }
+
+.mt-medium {
+  margin-top: 2rem; }
+
+.blue-text {
+  color: #3b5998; }
+
 .header {
   background-color: #3b5998;
-  padding: 0 22rem;
+  padding: .2rem 20rem;
   display: flex;
   justify-content: space-between;
   color: white;
-  font-size: .8rem;
+  font-size: .9rem;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
   border-bottom: 1px solid #133783;
-  min-height: 21px;
+  min-height: 2rem;
   position: relative;
   z-index: 1; }
   .header__logo {
@@ -34,34 +82,35 @@ body {
     align-self: center; }
   .header__login-area {
     display: flex;
-    width: 35rem;
+    width: 30rem;
     justify-content: space-evenly;
-    padding: 1rem 0; }
-  .header__email {
+    padding: .5rem 0; }
+  .header__email, .header__password {
     display: flex;
-    flex-direction: column; }
-  .header__password {
-    display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    width: 150px; }
   .header__text {
     margin: .2rem 0; }
   .header__input {
-    padding: .1rem; }
+    padding: .2rem;
+    border: 1px solid black; }
   .header__btn {
+    font-size: inherit;
     align-self: center;
-    padding: .2rem .7rem;
+    padding: .3rem .5rem;
     color: white;
+    font-weight: bolder;
     background-color: #4267b2;
-    border: 1px solid black;
+    border: 1px solid #29487d;
     cursor: pointer; }
     .header__btn:hover {
       background-color: #29487d; }
   .header__img {
-    height: 100%;
-    widows: 100%;
+    height: 80%;
+    widows: 80%;
     fill: linear-gradient(to top, #4e69a2, #3b5998 50%); }
   .header__link {
-    color: white;
+    color: #bbf;
     text-decoration: none;
     margin-top: .3rem; }
     .header__link:hover {
