@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 83.33%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #eee;
+}
+
+.container {
+    font-size: 1.8rem;
+}
+
+// ::selection {
+    
+// }
+
+

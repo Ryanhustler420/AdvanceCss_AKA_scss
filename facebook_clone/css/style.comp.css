@@ -1,0 +1,156 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Josefin Sans', sans-serif; }
+
+body {
+  box-sizing: border-box;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: #eee; }
+
+.container {
+  padding: 0 3rem;
+  width: 130rem;
+  margin: 0 auto; }
+
+::selection {
+  background-color: #f50;
+  color: white; }
+
+.heading-2 {
+  font-size: 4rem;
+  font-weight: 300; }
+
+.heading-3 {
+  font-size: 3rem;
+  font-weight: 100; }
+
+.SubText {
+  font-size: 2rem;
+  font-weight: 100; }
+
+.center {
+  text-align: center; }
+
+.btn {
+  align-self: center;
+  background-color: #f50;
+  border: none;
+  border-radius: 5px;
+  height: 5rem;
+  width: 20rem;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer; }
+
+.skull-btn {
+  text-decoration: none;
+  border: .5px solid #ccc;
+  padding: 1rem;
+  border-radius: 2px;
+  font-weight: 300;
+  color: black; }
+  .skull-btn:hover {
+    border: .5px solid #aaa; }
+
+.mt-small {
+  margin-top: 3rem; }
+
+.mb-small {
+  margin-bottom: 3rem; }
+
+.large {
+  width: 30rem; }
+
+.main-header {
+  box-shadow: 0px 0px 90px 0px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  height: 65vh;
+  color: white;
+  font-size: 1.4rem;
+  font-family: 'Josefin Sans';
+  border-top: 5px solid #f50;
+  display: grid;
+  grid-template-rows: minmax(auto-fit, 25rem);
+  grid-row-gap: 1rem; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between; }
+  .navigation__brand {
+    cursor: pointer; }
+    .navigation__brand::after {
+      content: "SoundCloud";
+      font-size: 2rem; }
+  .navigation__icon {
+    width: 6rem;
+    vertical-align: text-bottom; }
+  .navigation__nav__items {
+    list-style: none; }
+  .navigation__nav__item {
+    display: inline-block;
+    margin-left: 1rem;
+    padding: .3rem 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    cursor: pointer; }
+    .navigation__nav__item--skeleton {
+      border: 1px solid white; }
+      .navigation__nav__item--skeleton:hover {
+        background-color: white;
+        color: black; }
+    .navigation__nav__item--btn {
+      background-color: #f50;
+      border: 1px solid #f50; }
+      .navigation__nav__item--btn:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #f50; }
+
+.greeting {
+  padding: 10rem; }
+
+.music-list {
+  height: max-content;
+  background-color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 100;
+  box-shadow: 0px 0px 90px 0px rgba(0, 0, 0, 0.4); }
+  .music-list__searchArea {
+    text-align: center;
+    padding: 1rem;
+    vertical-align: middle; }
+    .music-list__searchArea__input {
+      width: 50%;
+      padding: 1.9rem;
+      background-color: #f2f2f2;
+      border: none;
+      border-radius: 5px;
+      outline: none; }
+  .music-list__collection {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 3rem; }
+  .music-list__each {
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    width: 150px; }
+
+.span {
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 0 2rem; }
+
+.img {
+  border-radius: 2px 2px 0 0; }
