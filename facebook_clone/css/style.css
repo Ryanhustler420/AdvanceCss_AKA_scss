@@ -43,6 +43,46 @@ body {
 .users__username {
   text-align: center; }
 
+.form {
+  padding: 0 3rem; }
+  .form > input {
+    margin: .5rem 0; }
+  .form__first, .form__second {
+    padding: 1rem;
+    border-radius: .3rem;
+    border: none;
+    border: 1px solid lightgray; }
+    .form__first::placeholder, .form__second::placeholder {
+      font-size: 1.6rem; }
+  .form__first {
+    width: 49%; }
+  .form__second {
+    width: 49%; }
+  .form__mobile, .form__password {
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: .3rem;
+    border: none;
+    border: 1px solid lightgray; }
+    .form__mobile::placeholder, .form__password::placeholder {
+      font-size: 1.6rem; }
+  .form__picker > * {
+    padding: .4rem .8rem; }
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: .8rem 5rem;
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115; }
+
 .heading-1 {
   font-size: 3rem;
   font-weight: 100; }
@@ -55,6 +95,15 @@ body {
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 2rem; }
+  .primary-text--small {
+    font-size: 1rem;
+    line-height: 1.1;
+    color: gray; }
+
+.heading-5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1rem; }
 
 .mt-small {
   margin-top: 1rem; }

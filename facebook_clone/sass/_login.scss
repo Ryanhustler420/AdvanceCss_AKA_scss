@@ -37,3 +37,82 @@
         text-align: center;
     }
 }
+
+.form {
+    padding: 0 3rem;
+
+    & > input {
+        margin: .5rem 0 ;
+    }
+
+    &__name {
+
+    }
+
+    &__first,
+    &__second {
+        
+        padding: 1rem;
+        border-radius: .3rem;
+        border: none;
+        border: 1px solid lightgray;
+
+        &::placeholder {
+            font-size: 1.6rem;
+
+        }
+    }
+
+    &__first {
+        width: 49%;
+    }
+
+    &__second {
+        width: 49%;
+    }
+
+    &__mobile,
+    &__password  {
+        padding: 1rem;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        border-radius: .3rem;
+        border: none;
+        border: 1px solid lightgray;
+
+        &::placeholder {
+            font-size: 1.6rem;
+        }
+    }
+
+    &__picker > * {
+        padding: .4rem .8rem;
+    }
+
+    &__sex {
+
+    }
+
+    &__male {
+
+    }
+
+    &__female {
+
+    }
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: .8rem 5rem;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}

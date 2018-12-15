@@ -12,6 +12,18 @@
     font-size: 1.4rem;
     font-weight: 100;
     line-height: 2rem;
+
+    &--small {
+        font-size: 1rem;
+        line-height: 1.1;
+        color: gray;
+    }
+}
+
+.heading-5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1rem;
 }
 
 .mt-small{
