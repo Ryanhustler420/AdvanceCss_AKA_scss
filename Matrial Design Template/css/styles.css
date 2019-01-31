@@ -1,5 +1,5 @@
 * {
-    color: white;
+    /* color: white; */
 }
 
 body {
@@ -39,7 +39,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: whitesmoke;    
+    color: whitesmoke;
+    
+    margin-bottom: 4em;
 }
 
 .mdl-button--colored {
@@ -53,12 +55,12 @@ body {
     color: white;
 }
 
-.home-section__content {
+.home-section__header-content {
     max-width: 600px;
     padding-left: 1em;
 }
 
-.home-section__content p {
+.home-section__header-content p {
     font-size: 120%;
 }
 
@@ -70,3 +72,21 @@ body {
 }
 
 /* home section header ends here */
+
+/* home section content starts here */
+
+.course-detail-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon-50 {
+    font-size: 50px;
+}
+
+/* home section content ends here */
