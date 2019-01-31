@@ -2,6 +2,10 @@
     /* color: white; */
 }
 
+.add-section-margin {
+    margin: 2rem 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -11,7 +15,8 @@ body {
 .logo {
     width: 30px;
     height: 30px;
-    filter: invert(100%);
+    /* filter: sepia(30%); */
+    cursor: pointer;
 
     /*Filter styles*/
 
@@ -90,3 +95,22 @@ body {
 }
 
 /* home section content ends here */
+
+
+/* divider - global starts here */
+
+.divider-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* divider-1 starts here */
+
+.divider-1 {
+    background: url(../images/d1.jpg) no-repeat;
+    color: wheat;
+}
+
+/* divider-1 ends here */
