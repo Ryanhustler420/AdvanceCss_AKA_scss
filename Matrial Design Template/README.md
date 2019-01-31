@@ -1,0 +1,27 @@
+## Static "MD" Blueprint
+
+- Home
+
+1.  Nav Header
+2.  Drawer
+3.  Main Hero Area
+4.  Course Detail
+5.  Divider 1
+6.  Courses sections  
+7.  Divider 2
+8.  Testimonial
+9.  Divider 3
+10. Contact Us
+11. Contact Us Map
+12. Footer
+
+---------------------------------
+
+-   Beginners
+-   Intermediates
+-   Advance / Expert
+-   Preprocessor
+-   Frameworks
+-   Libraries % Plugins
+-   Tips & Tricks
+-   Build Real World Projects
