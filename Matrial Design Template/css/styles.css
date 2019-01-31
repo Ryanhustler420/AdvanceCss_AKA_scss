@@ -1,3 +1,7 @@
+* {
+    color: white;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -8,7 +12,7 @@ body {
     width: 30px;
     height: 30px;
     filter: invert(100%);
-    
+
     /*Filter styles*/
 
     /* .saturate { filter: saturate(3); }
@@ -24,3 +28,45 @@ body {
 }
 
 /* main header section ends hers*/
+
+/* home section header starts here */
+
+.home-section__header {
+    background: linear-gradient(0deg, rgba(15, 14, 15, 0.857), rgba(235, 221, 228, 0.401)), url("../images/devs.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;    
+}
+
+.mdl-button--colored {
+    background: rgba(24, 204, 45, 0.435) !important;
+    color: white !important;
+}
+
+.mdl-button--default {
+    background: rgba(24, 204, 45, 0.435);
+    font-weight: 100;
+    color: white;
+}
+
+.home-section__content {
+    max-width: 600px;
+    padding-left: 1em;
+}
+
+.home-section__content p {
+    font-size: 120%;
+}
+
+.subtitle-text {
+    font-size: inherit;
+    color: orange;
+    background: green;
+    padding: 0 15px;
+}
+
+/* home section header ends here */
