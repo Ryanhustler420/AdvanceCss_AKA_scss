@@ -124,12 +124,26 @@ img {
 
 /* divider-1 starts here */
 
-.divider-1 {
+.divider-1,.divider-2 {
     background: url(../images/d1.jpg) no-repeat;
     color: wheat;
 }
 
 /* divider-1 ends here */
+
+/* divider-2 starts here */
+
+.divider-2{ 
+    background: url(../images/d1.jpg);
+    background-size: cover;
+    background-position: 20px;
+}
+
+.divider-right-text {
+    margin-left: auto;    
+}
+
+/* divider-3 ends here */
 
 /* courses sections starts here */
 
