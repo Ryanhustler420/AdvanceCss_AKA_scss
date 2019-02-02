@@ -16,11 +16,11 @@ img {
 
 .section-title {
     text-align: center;
-    text-transform: uppercase;
 }
 
 .section-title h4 {
     color: #3498db;
+    text-transform: uppercase;
 }
 .section-title p {
     color: #666;
@@ -133,7 +133,9 @@ img {
 
 /* divider-2 starts here */
 
-.divider-2{ 
+.divider-2{
+    border-top: 5px solid #7f1af3 /*linear-gradient(to right,#27c4f5,#a307ba,#fd8d32,#70c050,#27c4f5);*/;
+    border-bottom: 5px solid #7f1af3 /*linear-gradient(to right,#27c4f5,#a307ba,#fd8d32,#70c050,#27c4f5);*/;
     background: url(../images/d1.jpg);
     background-size: cover;
     background-position: 20px;
@@ -175,3 +177,31 @@ img {
 
 
 /* courses sections ends here */
+
+/* Testimonial section starts here */
+
+.image-circle {
+    border-radius: 50%;
+    margin-top: 2em;
+}
+
+h6 {
+    text-align: center;
+    color: #3498db;
+}
+
+blockquote {
+    font-size: 140%;
+}
+
+.user-ratings > .mdl-cell {
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.user-ratings > .mdl-cell:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    /* transform: translate(10px) scale(1.1); */
+}
+
+/* Testimonial section ends here */
