@@ -200,7 +200,7 @@ img {
     margin-top: 2em;
 }
 
-h6 {
+.user-ratings h6 {
     text-align: center;
     color: #3498db;
 }
@@ -220,3 +220,42 @@ blockquote {
 }
 
 /* Testimonial section ends here */
+
+/* Contact-Us Section starts here */
+
+.contact-us {
+    width: 95%;
+    margin: 0 auto;
+}
+.contact-form .mdl-cell {
+    margin-bottom: -1em;
+}
+
+.contact-address h6,
+.contact-form h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-address i {
+    font-size: 16px;
+}
+
+.social-btn {
+    background: #fff;
+}
+
+.social {
+    margin-top: 5em;
+}
+
+.social-grid {
+    display: flex;
+    justify-content: start;
+}
+
+.social-grid button {
+    margin-right: .5em;
+}
+
+/* Contact-Us Section ends here */
