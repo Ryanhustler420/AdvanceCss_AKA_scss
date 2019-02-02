@@ -124,7 +124,7 @@ img {
 
 /* divider-1 starts here */
 
-.divider-1,.divider-2 {
+.divider-1,.divider-2,.divider-3 {
     background: url(../images/d1.jpg) no-repeat;
     color: wheat;
 }
@@ -145,7 +145,22 @@ img {
     margin-left: auto;    
 }
 
+/* divider-2 ends here */
+
+
+
+/* divider-3 starts here */
+
+.divider-3 {
+    border-top: 5px solid #7f1af3 /*linear-gradient(to right,#27c4f5,#a307ba,#fd8d32,#70c050,#27c4f5);*/;
+    border-bottom: 5px solid #7f1af3 /*linear-gradient(to right,#27c4f5,#a307ba,#fd8d32,#70c050,#27c4f5);*/;
+    background: url(../images/keyboard.jpg);
+    background-size: cover;
+    background-position: 50px;
+}
+
 /* divider-3 ends here */
+
 
 /* courses sections starts here */
 
