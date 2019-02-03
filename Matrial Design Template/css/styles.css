@@ -259,3 +259,12 @@ blockquote {
 }
 
 /* Contact-Us Section ends here */
+
+/* Google map section starts here */
+
+.google-map {
+    width: 95%;
+    margin: 4em auto;
+}
+
+/* Google map section ends here */
