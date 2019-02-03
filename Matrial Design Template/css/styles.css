@@ -268,3 +268,11 @@ blockquote {
 }
 
 /* Google map section ends here */
+
+/* footer section starts here */
+
+.mdl-mega-footer__drop-down-section {
+    margin-right: 4em;
+}
+
+/* footer section ends here */
