@@ -19,7 +19,9 @@ img {
 }
 
 .section-title h4 {
-    color: #3498db;
+    font-size: 160%;
+    font-weight: bold;
+    color: #333;
     text-transform: uppercase;
 }
 .section-title p {
@@ -82,7 +84,12 @@ img {
 }
 
 .home-section__header-content p {
-    font-size: 120%;
+    font-size: 100%;
+}
+
+.home-section__header-content h3 {
+    font-size: 180%;
+    text-shadow: 2px 2px 1px #aaa;
 }
 
 .subtitle-text {
