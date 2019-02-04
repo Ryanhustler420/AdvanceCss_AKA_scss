@@ -276,3 +276,31 @@ blockquote {
 }
 
 /* footer section ends here */
+
+/* Tags */
+
+.courses-grid .mdl-card__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag {
+    font-size: 80%;
+    color: #f5f5f5;
+    padding: 0.2em .8em;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.tag-live {
+    background: #2ecc71;
+}
+
+.tag-indev {
+    background: #9b59b6;
+}
+
+.tag-upcomming {
+    background: #e67e22;
+}
